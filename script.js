@@ -75,7 +75,7 @@ const updateUI = () => {
   
     if (currentQuestionIndex < characters.length) {
         questionElement.textContent = characters[currentQuestionIndex].name;
-        characterImage.src = 'imagess/' + characters[currentQuestionIndex].image;
+        characterImage.src = 'images/' + characters[currentQuestionIndex].image;
     } else {
         questionElement.textContent = "Game Over";
         characterImage.src = '';  // Optionally, set to a default image
